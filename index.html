@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NG Makeover | Premium Bridal & Party Makeup Salon</title>
+  <meta name="description" content="Transforming beauty with confidence and elegance. NG Makeover is a premium Indian beauty salon specializing in Bridal, HD, Engagement, and Party makeup. Book your appointment on WhatsApp today!">
+  <meta name="keywords" content="NG Makeover, bridal makeup Nagpur, Indian bridal makeup, party makeup, HD makeup, hair styling, saree draping, makeup artist, beauty salon">
+  <meta name="author" content="NG Makeover">
+  
+  <!-- Open Graph metadata -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="NG Makeover | Premium Indian Beauty Salon">
+  <meta property="og:description" content="Get professional makeup, bridal styling, saree draping, and pre-wedding makeovers at affordable rates. Book your custom consultation on WhatsApp.">
+  <meta property="og:image" content="assets/gallery_bridal.png">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <p>✨ Book your Bridal Makeover & Get a Free Trial Consultation! <a href="#booking">Book Now</a></p>
+  </div>
+
+  <!-- Header Section -->
+  <header class="main-header" id="header">
+    <div class="container header-container">
+      <a href="#" class="logo">
+        <span class="logo-text">NG</span> Makeover
+      </a>
+      
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" id="navMenu">
+        <ul>
+          <li><a href="#" class="nav-link active">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#about" class="nav-link">Meet the Founder</a></li>
+          <li><a href="#why-us" class="nav-link">Why Choose Us</a></li>
+          <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+          <li><a href="#faq" class="nav-link">FAQs</a></li>
+          <li><a href="#booking" class="nav-btn">Book Appointment</a></li>
+        </ul>
+      </nav>
+      
+      <!-- Hamburger Toggle Button -->
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle Navigation Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <span class="hero-badge">✨ Luxury Makeup & Styling</span>
+        <h1 class="hero-title">Transforming Beauty with <span class="accent-text">Confidence & Elegance</span></h1>
+        <p class="hero-description">
+          Experience premium bridal, party, and HD makeup services tailored just for you. From personalized beauty consultations to budget-friendly styling packages, we make your special days unforgettable.
+        </p>
+        <div class="hero-features">
+          <div class="hero-feat-item">
+            <span class="feat-dot"></span> Bridal Specialists
+          </div>
+          <div class="hero-feat-item">
+            <span class="feat-dot"></span> Premium Products
+          </div>
+          <div class="hero-feat-item">
+            <span class="feat-dot"></span> Pocket-Friendly Rates
+          </div>
+        </div>
+        <div class="hero-ctas">
+          <a href="https://wa.me/919404075732?text=Hello%20NG%20Makeover%2C%20I%20would%20like%20to%20book%20an%20appointment." class="btn btn-primary" id="heroWhatsAppCTA" target="_blank" rel="noopener noreferrer">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            Book Appointment on WhatsApp
+          </a>
+          <a href="#services" class="btn btn-secondary" id="heroServicesCTA">
+            View Services
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <img src="assets/gallery_bridal.png" alt="Bridal Makeover Presentation" class="hero-img-main">
+          <div class="floating-card c-1">
+            <span class="f-number">5★</span>
+            <span class="f-text">Top-Rated Artist</span>
+          </div>
+          <div class="floating-card c-2">
+            <span class="f-number">1.2K+</span>
+            <span class="f-text">Happy Clients</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">What We Offer</span>
+        <h2 class="section-title">Our Signature Services</h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">We craft elegant, custom makeovers using international products that guarantee a long-lasting, photogenic glow for every occasion.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service Card 1 -->
+        <div class="service-card" data-service-name="Bridal Makeup">
+          <div class="service-icon-box">
+            <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <path d="M12 8v8M8 12h8"/>
+            </svg>
+          </div>
+          <h3 class="service-name">Bridal Makeup</h3>
+          <p class="service-desc">Stunning traditional and contemporary Indian bridal makeover with full face styling, hair, and jewelry settings.</p>
+          <div class="service-price">Starting from <span class="price">₹9,999</span></div>
+          <a href="#booking" class="btn-card-book" data-service="Bridal Makeup">Book Now</a>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="service-card" data-service-name="Engagement Makeup">
+          <div class="service-icon-box">
+            <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="10"/>
+              <circle cx="12" cy="12" r="4"/>
+            </svg>
+          </div>
+          <h3 class="service-name">Engagement Makeup</h3>
+          <p class="service-desc">A soft, glowing, and elegant look perfect for ring ceremonies and intimate wedding rituals.</p>
+          <div class="service-price">Starting from <span class="price">₹4,999</span></div>
+          <a href="#booking" class="btn-card-book" data-service="Engagement Makeup">Book Now</a>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="service-card" data-service-name="Party Makeup">
+          <div class="service-icon-box">
+            <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+            </svg>
+          </div>
+          <h3 class="service-name">Party Makeup</h3>
+          <p class="service-desc">High-glam and camera-friendly makeovers suitable for festivals, parties, birthdays, and anniversaries.</p>
+          <div class="service-price">Starting from <span class="price">₹1,999</span></div>
+          <a href="#booking" class="btn-card-book" data-service="Party Makeup">Book Now</a>
+        </div>
+
+        <!-- Service Card 4 -->
+        <div class="service-card" data-service-name="Reception Makeup">
+          <div class="service-icon-box">
+            <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+          <h3 class="service-name">Reception Makeup</h3>
+          <p class="service-desc">A modern, majestic, and glamorous makeup styling paired with contemporary hairstyles.</p>
+          <div class="service-price">Starting from <span class="price">₹5,999</span></div>
+          <a href="#booking" class="btn-card-book" data-service="Reception Makeup">Book Now</a>
+        </div>
+
+        <!-- Service Card 5 -->
+        <div class="service-card" data-service-name="HD Makeup">
+          <div class="service-icon-box">
+            <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+              <circle cx="12" cy="13" r="4"/>
+            </svg>
+          </div>
+          <h3 class="service-name">HD Makeup</h3>
+          <p class="service-desc">Ultra-high-definition, seamless makeup that looks completely natural and spotless under flash photography.</p>
+          <div class="service-price">Starting from <span class="price">₹3,499</span></div>
+          <a href="#booking" class="btn-card-book" data-service="HD Makeup">Book Now</a>
+        </div>
+
+        <!-- Service Card 6 -->
+        <div class="service-card" data-service-name="Hair Styling">
+          <div class="service-icon-box">
+            <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8M4 6h16M12 2v4"/>
+            </svg>
+          </div>
+          <h3 class="service-name">Hair Styling</h3>
+          <p class="service-desc">Elegant braids, sleek buns, soft beachy waves, and custom designer hairdos tailored to your outfit.</p>
+          <div class="service-price">Starting from <span class="price">₹999</span></div>
+          <a href="#booking" class="btn-card-book" data-service="Hair Styling">Book Now</a>
+        </div>
+
+        <!-- Service Card 7 -->
+        <div class="service-card" data-service-name="Saree Draping">
+          <div class="service-icon-box">
+            <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82zM7 7h.01"/>
+            </svg>
+          </div>
+          <h3 class="service-name">Saree Draping</h3>
+          <p class="service-desc">Flawless, lightweight traditional, Gujarati, Bengali, or modern lehenga saree draping and styling.</p>
+          <div class="service-price">Starting from <span class="price">₹799</span></div>
+          <a href="#booking" class="btn-card-book" data-service="Saree Draping">Book Now</a>
+        </div>
+
+        <!-- Service Card 8 -->
+        <div class="service-card" data-service-name="Pre-Wedding Makeovers">
+          <div class="service-icon-box">
+            <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <h3 class="service-name">Pre-Wedding Makeovers</h3>
+          <p class="service-desc">Fresh, vibrant, photo-optimized makeup looks for pre-wedding outdoor shoots and videos.</p>
+          <div class="service-price">Starting from <span class="price">₹3,999</span></div>
+          <a href="#booking" class="btn-card-book" data-service="Pre-Wedding Makeovers">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Real Results</span>
+        <h2 class="section-title">Client Makeover Portfolio</h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">A selection of bridal, festive, and occasion looks created with a light hand, thoughtful styling, and attention to every detail.</p>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="portfolio-gallery">
+        <div class="gallery-item is-featured">
+          <img src="assets/gallery/IMG-20260923-WA0000.jpg" alt="Bridal makeup look by NG Makeover" fetchpriority="high">
+          <div class="gallery-overlay">
+            <span class="overlay-category">Signature Bridal</span>
+            <h4 class="overlay-title">Make an entrance</h4>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/gallery/IMG-20260923-WA0001.jpg" alt="Elegant makeup look by NG Makeover" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="overlay-category">Bridal Makeup</span>
+            <h4 class="overlay-title">Soft radiance</h4>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/gallery/IMG-20260923-WA0002.jpg" alt="Traditional bridal styling by NG Makeover" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="overlay-category">Traditional Styling</span>
+            <h4 class="overlay-title">Timeless details</h4>
+          </div>
+        </div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0003.jpg" alt="Makeover look by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Makeover</span><h4 class="overlay-title">Modern glow</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0005.jpg" alt="Bridal styling by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Bridal Styling</span><h4 class="overlay-title">Grace in every frame</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0006.jpg" alt="Festive makeup look by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Festive Look</span><h4 class="overlay-title">Golden hour glamour</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0007.jpg" alt="Occasion makeup look by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Occasion Makeup</span><h4 class="overlay-title">Polished and poised</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0008.jpg" alt="Bridal beauty look by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Bridal Beauty</span><h4 class="overlay-title">A little bit of magic</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0009.jpg" alt="Hair and makeup styling by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Hair & Makeup</span><h4 class="overlay-title">Styled to shine</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0010.jpg" alt="Bridal makeover by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Bridal Makeover</span><h4 class="overlay-title">The bridal edit</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0011.jpg" alt="Elegant occasion look by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Occasion Look</span><h4 class="overlay-title">Effortless elegance</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0012.jpg" alt="Makeup artistry by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Makeup Artistry</span><h4 class="overlay-title">Beauty, refined</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0013.jpg" alt="Traditional makeup look by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Traditional Look</span><h4 class="overlay-title">Rooted in beauty</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0014.jpg" alt="Party makeup look by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Party Makeup</span><h4 class="overlay-title">Ready to celebrate</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0015.jpg" alt="Bridal hair styling by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Hair Styling</span><h4 class="overlay-title">Crowned with confidence</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0016.jpg" alt="Soft glam makeup by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Soft Glam</span><h4 class="overlay-title">Quiet luxury</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0017.jpg" alt="Wedding makeup look by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Wedding Look</span><h4 class="overlay-title">Made for memories</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0018.jpg" alt="Festive beauty look by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Festive Beauty</span><h4 class="overlay-title">Light-catching beauty</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0019.jpg" alt="Contemporary makeup look by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Contemporary Look</span><h4 class="overlay-title">Fresh perspective</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0020.jpg" alt="Elegant bridal look by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Bridal Finish</span><h4 class="overlay-title">Beautifully yours</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0021.jpg" alt="Makeup and saree styling by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Saree Styling</span><h4 class="overlay-title">Draped in elegance</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0022.jpg" alt="Glam makeup look by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Glam Look</span><h4 class="overlay-title">A signature finish</h4></div></div>
+        <div class="gallery-item"><img src="assets/gallery/IMG-20260923-WA0023.jpg" alt="Client makeover by NG Makeover" loading="lazy"><div class="gallery-overlay"><span class="overlay-category">Client Makeover</span><h4 class="overlay-title">Confidence, captured</h4></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meet the Founder Section -->
+  <section class="about-section" id="about">
+    <div class="container about-container">
+      <div class="about-visual">
+        <div class="about-image-frame">
+          <img src="assets/founder.png" alt="Founder of NG Makeover" class="about-img">
+          <div class="badge-experience">
+            <span class="exp-years">7+</span>
+            <span class="exp-text">Years Exp.</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-content">
+        <span class="section-subtitle">The Artist Behind the Brush</span>
+        <h2 class="section-title">Meet the Founder</h2>
+        <div class="section-divider left-align"></div>
+        <p class="founder-intro">
+          "Hi, I'm the founder of NG Makeover. My passion is helping women feel confident, beautiful, and empowered on their special occasions. With years of experience in beauty and makeup artistry, I focus on creating personalized looks that enhance natural beauty while ensuring every client feels comfortable and radiant."
+        </p>
+        
+        <!-- Trust Indicators & Qualifications -->
+        <div class="founder-stats">
+          <div class="stat-card">
+            <div class="stat-icon">🎓</div>
+            <div class="stat-info">
+              <h4 class="stat-value">Certified Professional</h4>
+              <p class="stat-desc">ISO & Nationally Accredited Beauty Academy</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">❤️</div>
+            <div class="stat-info">
+              <h4 class="stat-value">1,200+ Happy Clients</h4>
+              <p class="stat-desc">Bridal, fashion, and party makeovers</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">✨</div>
+            <div class="stat-info">
+              <h4 class="stat-value">Premium Hygiene</h4>
+              <p class="stat-desc">100% sanitized high-end international kits</p>
+            </div>
+          </div>
+        </div>
+        
+        <a href="#booking" class="btn btn-primary">Book Consultation with Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="why-section" id="why-us">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Our Promise</span>
+        <h2 class="section-title">Why Choose NG Makeover</h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">We combine professional makeup artistry with premium service to deliver a flawless, high-quality experience.</p>
+      </div>
+
+      <div class="why-grid">
+        <!-- Card 1 -->
+        <div class="why-card">
+          <div class="why-icon-box">💰</div>
+          <h3 class="why-title">Affordable Pricing</h3>
+          <p class="why-text">Premium luxury makeovers priced reasonably with zero surprise costs. Absolute value for money.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="why-card">
+          <div class="why-icon-box">💄</div>
+          <h3 class="why-title">Professional Products</h3>
+          <p class="why-text">Only genuine international brands like MAC, Huda Beauty, and Estée Lauder touch your skin.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="why-card">
+          <div class="why-icon-box">👩‍🎨</div>
+          <h3 class="why-title">Experienced Makeup Artist</h3>
+          <p class="why-text">Skilled hands trained to handle diverse Indian skin tones and bridal cultures flawlessly.</p>
+        </div>
+        <!-- Card 4 -->
+        <div class="why-card">
+          <div class="why-icon-box">🗣️</div>
+          <h3 class="why-title">Personalized Consultation</h3>
+          <p class="why-text">We listen to your wishes and run detailed skin and outfit matching before we start.</p>
+        </div>
+        <!-- Card 5 -->
+        <div class="why-card">
+          <div class="why-icon-box">🧼</div>
+          <h3 class="why-title">Hygienic Practices</h3>
+          <p class="why-text">Sanitized blenders, sterile brushes, and clean kits. Your health and skin safety is our priority.</p>
+        </div>
+        <!-- Card 6 -->
+        <div class="why-card">
+          <div class="why-icon-box">😍</div>
+          <h3 class="why-title">Customer Satisfaction Focused</h3>
+          <p class="why-text">We focus entirely on making you feel happy and glowing. Your satisfaction is our success.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Real Stories</span>
+        <h2 class="section-title">Client Love & Feedback</h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Read what our happy brides and guests say about their makeover experience with us.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">"Absolutely loved my bridal makeup. It lasted all day and looked stunning in photos."</p>
+          <div class="reviewer-info">
+            <div class="reviewer-avatar">AS</div>
+            <div class="reviewer-details">
+              <h4 class="reviewer-name">Aditi Sharma</h4>
+              <p class="reviewer-type">Bridal Makeover Client</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">"Very professional service and affordable pricing. Highly recommended."</p>
+          <div class="reviewer-info">
+            <div class="reviewer-avatar">PP</div>
+            <div class="reviewer-details">
+              <h4 class="reviewer-name">Priya Patel</h4>
+              <p class="reviewer-type">Party Makeup Client</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">"I received so many compliments after my makeover. Thank you NG Makeover."</p>
+          <div class="reviewer-info">
+            <div class="reviewer-avatar">AG</div>
+            <div class="reviewer-details">
+              <h4 class="reviewer-name">Anjali Gupta</h4>
+              <p class="reviewer-type">Reception Makeup Client</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Appointment Booking Section -->
+  <section class="booking-section" id="booking">
+    <div class="container booking-container">
+      <div class="booking-card">
+        <div class="booking-header">
+          <span class="booking-subtitle">Secure Your Spot</span>
+          <h2 class="booking-title">Book Your Makeover Session</h2>
+          <p class="booking-desc">Fill out this simple form, and it will automatically generate a WhatsApp message to schedule your appointment with our team.</p>
+        </div>
+        
+        <form class="booking-form" id="bookingForm">
+          <div class="form-group">
+            <label for="fullName">Full Name *</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="phoneNumber">Phone Number *</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your 10-digit number" required pattern="[6-9][0-9]{9}">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="prefDate">Preferred Date *</label>
+              <input type="date" id="prefDate" name="prefDate" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="prefTime">Preferred Time *</label>
+              <input type="time" id="prefTime" name="prefTime" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="serviceType">Service Required *</label>
+            <select id="serviceType" name="serviceType" required>
+              <option value="" disabled selected>Select a Service</option>
+              <option value="Bridal Makeup">Bridal Makeup (Starting from ₹9,999)</option>
+              <option value="Engagement Makeup">Engagement Makeup (Starting from ₹4,999)</option>
+              <option value="Party Makeup">Party Makeup (Starting from ₹1,999)</option>
+              <option value="Reception Makeup">Reception Makeup (Starting from ₹5,999)</option>
+              <option value="HD Makeup">HD Makeup (Starting from ₹3,499)</option>
+              <option value="Hair Styling">Hair Styling (Starting from ₹999)</option>
+              <option value="Saree Draping">Saree Draping (Starting from ₹799)</option>
+              <option value="Pre-Wedding Makeovers">Pre-Wedding Makeovers (Starting from ₹3,999)</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block" id="bookingSubmitBtn">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            Book on WhatsApp
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section" id="faq">
+    <div class="container faq-container">
+      <div class="section-header">
+        <span class="section-subtitle">Got Questions?</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Here are answers to the most common questions about our services, booking process, and hygiene standards.</p>
+      </div>
+
+      <div class="accordion-list">
+        <!-- FAQ Item 1 -->
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false" id="faq-q-1">
+            <span>Do I need to book in advance?</span>
+            <span class="accordion-icon"></span>
+          </button>
+          <div class="accordion-content" aria-hidden="true">
+            <div class="accordion-inner">
+              <p>Yes, we highly recommend booking at least 2–3 weeks in advance for party makeup, and 2–3 months in advance for bridal makeovers to guarantee availability on your preferred date and time slot.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Item 2 -->
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false" id="faq-q-2">
+            <span>Do you provide bridal makeup?</span>
+            <span class="accordion-icon"></span>
+          </button>
+          <div class="accordion-content" aria-hidden="true">
+            <div class="accordion-inner">
+              <p>Absolutely! Bridal makeup is our primary specialty. We design complete packages incorporating high-definition makeup, gorgeous hair styling, jewelry setting, and perfect saree/lehenga draping.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Item 3 -->
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false" id="faq-q-3">
+            <span>What products do you use?</span>
+            <span class="accordion-icon"></span>
+          </button>
+          <div class="accordion-content" aria-hidden="true">
+            <div class="accordion-inner">
+              <p>We use only premium, original international brands such as MAC, Huda Beauty, Estée Lauder, NARS, Too Faced, and Anastasia Beverly Hills. All products are selected based on your skin type to ensure safety and long-lasting glow.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Item 4 -->
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false" id="faq-q-4">
+            <span>Are home services available?</span>
+            <span class="accordion-icon"></span>
+          </button>
+          <div class="accordion-content" aria-hidden="true">
+            <div class="accordion-inner">
+              <p>Yes, we offer on-site home or venue makeup services for bridal, reception, and group makeovers. Standard travel fees apply depending on the distance from our salon.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Item 5 -->
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false" id="faq-q-5">
+            <span>What are your working hours?</span>
+            <span class="accordion-icon"></span>
+          </button>
+          <div class="accordion-content" aria-hidden="true">
+            <div class="accordion-inner">
+              <p>Our regular salon hours are Monday to Sunday from 9:00 AM to 8:00 PM. For bridal clients, we also accommodate early morning or late night sessions upon prior request.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="main-footer">
+    <div class="container footer-top">
+      <div class="footer-brand-column">
+        <a href="#" class="logo footer-logo">
+          <span class="logo-text">NG</span> Makeover
+        </a>
+        <p class="footer-tagline">Enhancing your natural beauty and helping you radiate confidence on your most memorable days.</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/ngmakeover10/" target="_blank" rel="noopener noreferrer" aria-label="Follow NG Makeover on Instagram" id="footerInstaBtn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37zM17.5 6.5h.01"/></svg>
+          </a>
+          <a href="https://wa.me/919404075732" target="_blank" rel="noopener noreferrer" aria-label="Message NG Makeover on WhatsApp" id="footerWaBtn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-info-column">
+        <h3 class="footer-title">Contact & Location</h3>
+        <ul class="footer-contact-list">
+          <li>
+            <span class="c-icon">📍</span>
+            <span class="c-text">NG makeover studios Nagpur</span>
+          </li>
+          <li>
+            <span class="c-icon">📞</span>
+            <a href="tel:+919404075732" class="c-text" id="footerPhoneLink">+91 94040 75732</a>
+          </li>
+          <li>
+            <span class="c-icon">💬</span>
+            <a href="https://wa.me/919404075732" class="c-text" id="footerWaLink">+91 94040 75732</a>
+          </li>
+          <li>
+            <span class="c-icon">⏰</span>
+            <span class="c-text">Mon – Sun: 9:00 AM – 8:00 PM</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-map-column">
+        <h3 class="footer-title">Find Us On Map</h3>
+        <div class="map-container">
+          <!-- Elegant premium map placeholder frame -->
+          <div class="map-placeholder">
+            <svg class="map-marker-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <p class="map-text">NG makeover studios Nagpur</p>
+            <a href="https://maps.app.goo.gl/JD2ZAqwgW2mK2Teq5" target="_blank" rel="noopener noreferrer" class="btn-map" id="googleMapsBtn">Open in Google Maps</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p class="copy-text">&copy; 2026 NG Makeover. All Rights Reserved.</p>
+        <p class="design-credit">Designed with ❤️ for Indian Brides</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp CTA Button (Always Visible) -->
+  <a href="https://wa.me/919404075732?text=Hello%20NG%20Makeover%2C%20I%20would%20like%20to%20book%20an%20appointment." class="floating-wa-btn" id="floatingWhatsAppBtn" target="_blank" rel="noopener noreferrer" aria-label="Chat with NG Makeover on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="30" height="30">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.458 5.705 1.459h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <!-- Sticky Book Appointment Bar for Mobile Screens -->
+  <div class="sticky-mobile-cta" id="stickyMobileCta">
+    <a href="#booking" class="btn btn-primary btn-block" id="stickyBookingBtn">Book Appointment Now</a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="scripts.js"></script>
+</body>
+</html>
